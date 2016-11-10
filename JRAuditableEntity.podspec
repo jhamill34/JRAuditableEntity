@@ -1,18 +1,13 @@
 Pod::Spec.new do |s|
-  s.name         = "JRAuditableEntity"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of JRAuditableEntity."
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
-
-  # s.homepage     = "http://EXAMPLE/JRAuditableEntity"
-  s.license       = "MIT (example)"
+  s.name          = "JRAuditableEntity"
+  s.version       = "1.0.0"
+  s.summary       = "Creates opprotunities to fix entities that may not be in a proper state."
+  s.description   = "Entities may implement the Fixable protocol to return a list of properties that have failed
+  validation. Entities may implement the Diffable protocol to be able to compose a collection of properties that are
+  different."
+  s.homepage      = "https://github.com/xlr8runner/JRAuditableEntity"
+  s.license       = { :type => 'MIT', :file => 'LISCENSE' }
   s.author        = { "Joshua L. Rasmussen" => "xlr8runner@gmail.com" }
-  s.source        = { :git => "http://github.com/xlr8runner/JRAuditableEntity.git", :tag => "0.0.1" }
+  s.source        = { :git => "https://github.com/xlr8runner/JRAuditableEntity.git", :tag => "1.0.0" }
   s.source_files  = "JRAuditableEntity/**/*.{h,m}"
 end
