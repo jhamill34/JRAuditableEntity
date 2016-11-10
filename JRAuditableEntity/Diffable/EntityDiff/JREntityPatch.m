@@ -33,13 +33,13 @@
 - (void)apply:(id <JRDiffableEntityProtocol>)entity withError:(NSError *__autoreleasing *)error{
     SEL getter = NSSelectorFromString(_field);
     if(![entity respondsToSelector:getter]){
-        *error = [NSError errorWithDomain:DiffableErrorDomain code:DiffableMissingProperty userInfo:nil];
+        *error = [NSError errorWithDomain:JRDiffableErrorDomain code:JRDiffableMissingProperty userInfo:nil];
         return;
     }
     
     id val = [entity valueForKey:_field];
     if([val class] != [_to class] && val != nil && _to != nil){
-        *error = [NSError errorWithDomain:DiffableErrorDomain code:DiffableMismatchType userInfo:nil];
+        *error = [NSError errorWithDomain:JRDiffableErrorDomain code:JRDiffableMismatchType userInfo:nil];
         return;
     }
     

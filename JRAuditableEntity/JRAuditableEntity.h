@@ -14,6 +14,7 @@ FOUNDATION_EXPORT double JRAuditableEntityVersionNumber;
 FOUNDATION_EXPORT const unsigned char JRAuditableEntityVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <JRAuditableEntity/PublicHeader.h>
+
 #import "JRVerifiableEntityProtocol.h"
 #import "JRFixable.h"
 #import "JRFixableText.h"

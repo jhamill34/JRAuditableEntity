@@ -7,15 +7,15 @@
 //
 #import <Foundation/Foundation.h>
 
-#ifndef DiffableConstants_h
-#define DiffableConstants_h
+#ifndef JRDiffableConstants_h
+#define JRDiffableConstants_h
 
-typedef NS_ENUM(NSInteger, DiffableErrorCodes) {
-    DiffableMismatchType,
-    DiffableIndexOutOfBounds,
-    DiffableMissingProperty
+typedef NS_ENUM(NSInteger, JRDiffableErrorCodes) {
+    JRDiffableMismatchType,
+    JRDiffableIndexOutOfBounds,
+    JRDiffableMissingProperty
 };
 
-extern NSString *const DiffableErrorDomain;
+extern NSString *const JRDiffableErrorDomain;
 
 #endif /* DiffableConstants_h */

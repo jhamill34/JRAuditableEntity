@@ -31,7 +31,7 @@ NSInteger max(NSInteger a, NSInteger b){
 
 - (NSArray <id <JRPatch>> *)computeDiff:(id<JRDiffableEntityProtocol>)entityA against:(id<JRDiffableEntityProtocol>)entityB withError:(NSError **)error {
     if([entityA class] != [entityB class]){
-        *error = [NSError errorWithDomain:DiffableErrorDomain code:DiffableMismatchType userInfo:nil];
+        *error = [NSError errorWithDomain:JRDiffableErrorDomain code:JRDiffableMismatchType userInfo:nil];
         return nil;
     }
 

@@ -9,4 +9,4 @@
 #import <Foundation/Foundation.h>
 #import "JRDiffableConstants.h"
 
-NSString *const DiffableErrorDomain = @"DiffableErrorDomain";
+NSString *const JRDiffableErrorDomain = @"DiffableErrorDomain";

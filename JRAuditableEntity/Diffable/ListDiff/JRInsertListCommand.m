@@ -26,7 +26,7 @@
 
 - (void)performCommand:(NSMutableArray *)list withParent:(id)parent withError:(NSError *__autoreleasing *)error{
     if(_index > list.count){
-        *error = [NSError errorWithDomain:DiffableErrorDomain code:DiffableIndexOutOfBounds userInfo:nil];
+        *error = [NSError errorWithDomain:JRDiffableErrorDomain code:JRDiffableIndexOutOfBounds userInfo:nil];
         return;
     }
     
