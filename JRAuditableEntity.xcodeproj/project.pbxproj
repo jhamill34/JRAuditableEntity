@@ -54,6 +54,8 @@
 		7E5019E11DD3B97B00274FDF /* Equipment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5019D71DD3B97B00274FDF /* Equipment.m */; };
 		7E5019E21DD3B97B00274FDF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5019D91DD3B97B00274FDF /* Person.m */; };
 		7E5019E31DD3B97B00274FDF /* VerifiableEntityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5019DA1DD3B97B00274FDF /* VerifiableEntityTests.m */; };
+		7EA908711DD4F4C9001AA952 /* JRAuditableEntity.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7EA908701DD4F4C9001AA952 /* JRAuditableEntity.podspec */; };
+		7EA908731DD4F4DF001AA952 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7EA908721DD4F4DF001AA952 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +123,8 @@
 		7E5019D81DD3B97B00274FDF /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		7E5019D91DD3B97B00274FDF /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		7E5019DA1DD3B97B00274FDF /* VerifiableEntityTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifiableEntityTests.m; sourceTree = "<group>"; };
+		7EA908701DD4F4C9001AA952 /* JRAuditableEntity.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JRAuditableEntity.podspec; sourceTree = "<group>"; };
+		7EA908721DD4F4DF001AA952 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,7 @@
 		7E5018D21DD3B25100274FDF = {
 			isa = PBXGroup;
 			children = (
+				7EA9086F1DD4F3E5001AA952 /* Metadata */,
 				7E5018DE1DD3B25100274FDF /* JRAuditableEntity */,
 				7E5018E91DD3B25100274FDF /* JRAuditableEntityTests */,
 				7E5018DD1DD3B25100274FDF /* Products */,
@@ -266,6 +271,15 @@
 			path = TestEntities;
 			sourceTree = "<group>";
 		};
+		7EA9086F1DD4F3E5001AA952 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				7EA908701DD4F4C9001AA952 /* JRAuditableEntity.podspec */,
+				7EA908721DD4F4DF001AA952 /* README.md */,
+			);
+			name = Metadata;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -380,6 +394,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA908711DD4F4C9001AA952 /* JRAuditableEntity.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +424,7 @@
 				7E5019BB1DD3B93600274FDF /* JRUpdateListCommand.m in Sources */,
 				7E5019BE1DD3B93600274FDF /* JRBaseFixable.m in Sources */,
 				7E5019B41DD3B93600274FDF /* JRListEntityPatch.m in Sources */,
+				7EA908731DD4F4DF001AA952 /* README.md in Sources */,
 				7E5019AA1DD3B93600274FDF /* JRDiffableConstants.m in Sources */,
 				7E5019B91DD3B93600274FDF /* JRInsertListCommand.m in Sources */,
 			);
