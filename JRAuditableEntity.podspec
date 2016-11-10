@@ -6,8 +6,9 @@ Pod::Spec.new do |s|
   validation. Entities may implement the Diffable protocol to be able to compose a collection of properties that are
   different."
   s.homepage      = "https://github.com/xlr8runner/JRAuditableEntity"
-  s.license       = { :type => 'MIT', :file => 'LISCENSE' }
+  s.license       = { :type => 'MIT', :file => 'LICENSE' }
   s.author        = { "Joshua L. Rasmussen" => "xlr8runner@gmail.com" }
   s.source        = { :git => "https://github.com/xlr8runner/JRAuditableEntity.git", :tag => "1.0.0" }
   s.source_files  = "JRAuditableEntity/**/*.{h,m}"
+  s.platform = :ios, '9.0'
 end
